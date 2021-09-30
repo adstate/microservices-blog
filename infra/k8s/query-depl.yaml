@@ -13,8 +13,8 @@ spec:
         app: query
     spec:
       containers:
-        - name: event-bus
-          image: fffelllix/event-bus
+        - name: query
+          image: fffelllix/query
 ---
 apiVersion: v1
 kind: Service
